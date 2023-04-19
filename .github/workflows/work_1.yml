@@ -2,12 +2,14 @@ name: Work 1 Pepe
 on:
   push:
     branches:
-      - test
+      - test_1
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something
       run: echo "Impresion 1"
+    - name: Print Something 2
       run: echo "Impresion 2"
+    - name: Print Something 3
       run: echo "Impresion 3"
